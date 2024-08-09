@@ -1,0 +1,152 @@
+.body{
+
+display : grid;
+grid-template-columns : 1fr;
+grid-template-rows : 1fr, 1fr, 2fr, 1fr, 0.5fr;
+}
+
+
+
+
+
+
+
+
+
+
+.partOne{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    background : #00BFFF;
+     margin-bottom : 200px;    
+}
+
+.partOne > h1{
+    font-family : Grey Qo;
+    font-size : 100px;
+
+}
+
+.partOne > h2{
+        font-family : Quicksand;
+
+}
+
+.partTwo{
+
+    
+     display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    margin-bottom : 200px;    
+    font-family : Quicksand;
+
+
+}
+
+.partTwo  img {
+
+    border-radius : 50%;
+
+}
+
+.partThree {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: repeat(2, auto); /* Two rows with automatic height */
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Optional: Padding around the grid */
+}
+
+
+.HardSkills > div >h3,  .Softskills > div >h3{
+    background : #00BFFF;
+
+}
+
+ 
+
+
+.HardSkills {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.Softskills {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+     
+}
+
+.HardSkills > div, .Softskills > div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #fff; /* Optional: Background color */
+    margin-bottom : 100px;    
+    font-family : Quicksand;
+}
+
+.PartThree > h2{
+    text-align : center;
+    
+}
+
+
+
+.PartFour{
+     margin-bottom : 200px; 
+        text-align :center;
+        font-family : Quicksand;
+         margin-top : 100px;  
+}
+/*.partThree{
+
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-rows : 0.5fr 1fr 0.5fr 1fr;
+    column-gap : 30px;
+}*/
+
+/*.HardSkills > .skillsOne{
+    grid-area : 2/1/3/2;
+}
+
+.HardSkills > .skillsTwo{
+    grid-area : 2/2/3/3; 
+}
+
+.HardSkills > .skillsThree{
+    grid-area : 2/3/3/4;
+    
+}
+
+.Softskills > .skillsOne{
+     grid-area : 3/1/4/2;
+}
+
+.Softskills > .skillsTwo{
+     grid-area : 3/2/4/3; 
+
+}
+
+.Softskills > .skillsThree{
+     grid-area : 3/3/4/4;
+}*/
+
+
+.PartFive{
+        background : #00BFFF
+
+
+
+}
+
+
